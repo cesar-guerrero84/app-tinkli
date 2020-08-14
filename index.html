@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tikli.com</title>
+    <link rel="stylesheet" href="styleApp.css">
+    <link rel="icon" href="calendar.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navegador -->
+    <div class="nav_container">
+        <nav class="navbar">
+            <a href="#" class="navbar_brand">Manager De Tareas</a>
+            <h3>Creado Por Cesar Guerrero
+                <a class="links" href=https://www.linkedin.com/in/cesar-guerrero-6298a91b2/ target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="links" href=https://github.com/cesar-guerrero84 target="blank">
+                    <i class="fab fa-github"> </i>
+                </a>
+            </h3>
+        </nav>
+    </div>
+    <!-- maincontent -->
+    <div  class="main_container">
+        <div class="input_div">
+            <form id="formTarea" >
+                <input type="text" id="title" placeholder="       agregar una tarea">
+            </div>
+            <div class="text_div">
+                <textarea name="" id="description" cols="20" rows="5" placeholder="agrega una descripcion"></textarea>
+            </div>
+            <button class="submit_buton" type="submit">Abrir / Guardar Tarea</button>
+            </form>
+            <!-- tarjetaa}s de tareas -->
+        <div class="tareas_container">
+            <div id="tareas"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
